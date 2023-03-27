@@ -1,0 +1,55 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 60px;
+  width: 100%;
+  background-color: #d9edfd;
+  border-radius: 8px;
+  display: block;
+}
+h1,
+p {
+  font-family: "Poppins", sans-serif;
+}
+.mon,
+.wed,
+.fri {
+  background-color: grey;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+:hover.mon,
+:hover.wed,
+:hover.fri {
+  color: antiquewhite;
+  transform: translateY(-20px);
+  transition: all 0.2s ease-in-out;
+}
+.tue,
+.thurs,
+.sat {
+  text-align: center;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+:hover.tue,
+:hover.thurs,
+:hover.sat {
+  color: antiquewhite;
+}
+
+#Cel {
+  display: none;
+}
+#temp{
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+#unit {
+  position: relative;
+  top: -34px;
+}
