@@ -65,6 +65,9 @@ h1
 #sky{
   font-size: 20px;
 }
+#sky::first-letter{
+  text-transform: uppercase;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -81,4 +84,12 @@ li {
   bottom: 15px;
   height: 64px;
   width: 64px;
+}
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
