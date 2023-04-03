@@ -63,7 +63,7 @@ h1
   top: -34px;
 }
 #sky{
-  font-size: 30px;
+  font-size: 20px;
 }
 ul {
   margin: 0;
@@ -75,8 +75,10 @@ li {
   margin: 0;
   padding: 0;
 }
-img {
+.weather-temperature img {
   margin-right: 5px;
+  position: relative;
+  bottom: 15px;
   height: 64px;
   width: 64px;
 }
